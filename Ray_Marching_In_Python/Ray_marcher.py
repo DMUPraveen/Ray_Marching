@@ -101,8 +101,8 @@ def march_is_shadow(start_Position, Scene, Light):
 def main():
     screen_distance = 1.0
 
-    screen_pwidth = 400
-    screen_pheight = 400
+    screen_pwidth = 800
+    screen_pheight = 800
     Light = Vector(-10.0, 10.0, -10.0)
     noramlizing_factor = 1/400
     img = Image.new('RGB', (screen_pwidth, screen_pheight), color=(0, 0, 0))
